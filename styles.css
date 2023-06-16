@@ -1,0 +1,30 @@
+body{
+    display:flex;
+}
+#canvas{
+    background-color:blue;
+    border:5px red solid;
+    height: 500px;
+    width: 500px;
+    justify-self: center; 
+    display:flex;
+    flex-wrap:wrap;
+}
+#menu{
+    background-color: black;
+    border:5px green solid;
+    height: 600px;
+    width: 300px;
+    margin-right:50px;
+}
+.pixel{
+    /* min-width: 10px;
+    min-height:10px; */
+    height:25%;
+    width:25%;
+    background-color:grey;
+    border:0px black solid;
+}
+#singleton{
+    background-color:red;
+}
