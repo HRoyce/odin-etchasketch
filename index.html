@@ -9,40 +9,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Draw it!</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id = header>Etch-a-Sketch</div>
     <div id = content>
-        <div id = menu1 class="menu">Color selection
-            <button>Click ME</button>
-            <button>Click ME</button>
-            <button>Click ME</button>
-            <button>Click ME</button>
+        <div id = menu1 class="menu">Select Color/Paint
+            <div id = redSelector class = "button">Red</div>
+            <div id = greenSelector class = "button">Green</div>
+            <div id = blueSelector class = "button">Blue</div>
+            <div id = randSelector class = "button">Random</div>
         </div>
         <div id = canvas>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div id=singleton class = pixel></div>
-            <div class = pixel></div>                       
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-            <div class = pixel></div>
-
+            <!-- pixels go here -->
         </div>
         <div id = menu2 class = "menu">Canvas size/resolution
-            <button>Click ME</button>
-            <button>Click ME</button>
-            <button>Click ME</button>
-            <button>Click ME</button>
+            <div id = pixels25 class = "button">5x5 Canvas</div>
+            <div id = pixels64 class = "button">8x8 Canvas</div>
+            <div id = pixels100 class = "button">10x10 Canvas</div>
+            <div id = pixels225 class = "button">15x15 Canvas</div>
         </div>
     </div>
     

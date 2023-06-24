@@ -1,8 +1,9 @@
 body{
     display:flex;
     flex-direction: column;
-    background-color:rgb(63, 63, 100);
+    background-color:rgb(193, 193, 221);
     font-family:Roboto, sans-serif;
+    
 }
 #header{
     align-self:center;
@@ -10,41 +11,69 @@ body{
     display:flex;
     justify-content: center;
     font-size: 48px;
-    background:grey;
-    width:50%;
+    width:25%;
+    background-color: rgb(59, 122, 204);
+    border:5px rgb(0, 0, 0) solid;
+    border-radius:8px;
+    color:white;
 }
 #content{
     display:flex;
     justify-content:space-evenly;
-    border:5px teal solid;
+    /* border:5px teal solid; */
     
     
 }
 #canvas{
     background-color:blue;
-    border:5px red solid;
+    border:5px rgb(0, 0, 0) solid;
     height: 500px;
     width: 500px;
     display:flex;
     flex-wrap:wrap;
     justify-self: center;
     align-self:center;
+    border-radius:8px;
 }
 button{
     height:50px;
 }
+.button{
+    display:flex;
+    margin:1%;
+    padding:0;
+    height:35%;
+    width:45%;
+    color:rgb(8, 25, 43);
+    border:2px black solid;
+    background-color:rgb(255, 255, 255);
+    border-radius:8px;
+    transition: all .15s ease;
+    align-items:center;
+    justify-content: center;
+    font-size:36px;
+}
+/* .button:hover {
+    background-color: rgb(100, 115, 129); */
+.button:hover{
+    scale: 1.1;
+    transition: all .25s ease;
+    box-shadow: rgb(46, 46, 46) 10px 10px 10px;
+  }
 .menu{
     display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: black;
-    border:5px green solid;
+    flex-wrap:wrap;
+    background-color: rgb(59, 122, 204);
+    border:5px rgb(0, 0, 0) solid;
     height: 600px;
-    width: 300px;
+    width: 350px;
     color:white;
     text-align:center;
-    font-size:24px;
+    font-size:48px;
     font-family:Roboto, sans-serif;
+    justify-content:center;
+    /* align-items: */
+    border-radius:8px;
 }
 #menu1{
     
@@ -52,14 +81,35 @@ button{
 #menu2{
 
 }
-.pixel{
+
+.pixel25{
+    height:19%;
+    width:19%;
+    background-color:rgb(255, 255, 255);
+    border:1px black solid;
+}
+.pixel64{
+    height:12%;
+    width:12%;
+    background-color:rgb(255, 255, 255);
+    border:1px black solid;
+
+}
+.pixel100{
     /* min-width: 10px;
     min-height:10px; */
-    height:25%;
-    width:25%;
-    background-color:grey;
-    border:0px black solid;
+    height:9.5%;
+    width:9.5%;
+    background-color:rgb(255, 255, 255);
+    border:1px black solid;
 }
+.pixel225{
+    height:6.2%;
+    width:6.2%;
+    background-color:rgb(255, 255, 255);
+    border:1px black solid;
+}
+.pixel
 #singleton{
     background-color:red;
 }
