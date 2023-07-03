@@ -13,7 +13,7 @@ body{
     font-size: 48px;
     width:25%;
     background-color: rgb(59, 122, 204);
-    border:5px rgb(0, 0, 0) solid;
+    border:5px rgb(0, 0, 0) ridge;
     border-radius:8px;
     color:white;
 }
@@ -26,13 +26,15 @@ body{
 }
 #canvas{
     background-color:blue;
-    border:5px rgb(0, 0, 0) solid;
+    border:20px rgb(0, 0, 0) ridge;
     height: 500px;
     width: 500px;
     display:flex;
     flex-wrap:wrap;
-    justify-self: center;
-    align-self:center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* justify-self: center; */
+    /* align-self:center; */
     border-radius:8px;
 }
 button{
@@ -45,7 +47,7 @@ button{
     height:35%;
     width:45%;
     color:rgb(8, 25, 43);
-    border:2px black solid;
+    border:5px black ridge;
     background-color:rgb(255, 255, 255);
     border-radius:8px;
     transition: all .15s ease;
@@ -64,7 +66,7 @@ button{
     display:flex;
     flex-wrap:wrap;
     background-color: rgb(59, 122, 204);
-    border:5px rgb(0, 0, 0) solid;
+    border:10px rgb(0, 0, 0) ridge;
     height: 600px;
     width: 350px;
     color:white;
@@ -82,34 +84,43 @@ button{
 
 }
 
-.pixel25{
-    height:19%;
-    width:19%;
-    background-color:rgb(255, 255, 255);
-    border:1px black solid;
+.pixels25{
+    height:20%;
+    width:20%;
+    background-color:white;
+    border:0px black solid;
 }
-.pixel64{
-    height:12%;
-    width:12%;
-    background-color:rgb(255, 255, 255);
-    border:1px black solid;
+.pixels64{
+    height:12.5%;
+    width:12.5%;
+    background-color:white;
+    border:0px black solid;
 
 }
-.pixel100{
+.pixels100{
     /* min-width: 10px;
     min-height:10px; */
-    height:9.5%;
-    width:9.5%;
-    background-color:rgb(255, 255, 255);
-    border:1px black solid;
+    height:10%;
+    width:10%;
+    background-color:white;
+    border:0px black solid;
 }
-.pixel225{
-    height:6.2%;
-    width:6.2%;
-    background-color:rgb(255, 255, 255);
-    border:1px black solid;
+.pixels225{
+    height:6.666%;
+    width:6.666%;
+    background-color:white;
+    border:0px black solid;
 }
-.pixel
-#singleton{
-    background-color:red;
+
+.selected{
+    background-color: green;
+}
+.RED{
+    background-color: #ff0000;
+}
+.BLUE{
+    background-color: #0000ff;
+}
+.GREEN{
+    background-color: #008000;
 }
